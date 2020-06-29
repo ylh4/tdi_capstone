@@ -12,37 +12,37 @@ More specifically, communal conflict (cc_onset) is a binary output variable repr
 
 #### Inputs
 ###### Political and Military
-###### actor_protesters: 
+###### `actor_protesters`: 
 Interaction of identity groups with protesters
-###### actor _rioters: 
+###### `actor _rioters`: 
 Interaction of identity groups with rioters
-###### actor_political_militias: 
+###### `actor_political_militias`: 
 Interaction of identity groups with political militias
-###### actor_identity_militias: 
+###### `actor_identity_militias`: 
 Interaction identity groups with identity militias
-###### actor_civilians: 
+###### `actor_civilians`: 
 Interaction identity groups with civilians
-###### actor_others: 
+###### `actor_others`: 
 Interaction identity groups with others
-###### actor_state: 
+###### `actor_state`: 
 Interaction identity groups with government 
 ##### Economic
 ###### poverty: 
-poverty index
-###### cpi: 
+`poverty_index`
+###### `cpi`: 
 Commodity Price Index
-###### wheat_price: 
+###### `wheat_price`: 
 Average price of wheat per kg
-###### maize_price: 
+###### `maize_price`: 
 Average price of maize per kg
-###### sorghum_price: 
+###### `sorghum_price`: 
 Average price of sorghum per kg
-###### education: 
+###### `education`: 
 Percent of literate
-###### food_sc: 
+###### `food_sc`: 
 FEWSNET food security classification 
 ##### Social
-###### ethnic_boundary_km: 
+###### `ethnic_boundary_km`: 
 Distance to the nearest ethinic boundary in km
 ###### religion_group_islam: 
 Percent of Islam in the population
