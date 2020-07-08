@@ -90,9 +90,10 @@ Area under `crop/farm` land, `Urban`, `Rangeland`,`Forest` land, `Wetlands`, `Ba
 Mean `rainfall` (mm), `Temperature` (degrees celsius), `Ndvi` 
 
 ## Methodology
-So far, I evaluated different forms of time-series and tree-based algorithms. These include classical random forests, logistic regression (classifier), mixed effect random forests, as well as Recurrent Neural Networks (RNNs). We find that LSTM autoencoder, a type of RNNs, perform better than the other types of classifiers considered for this problem.
+So far, I evaluated different forms of time-series and tree-based algorithms. These include classical random forests, logistic regression (classifier), mixed effect random forests, as well as Recurrent Neural Networks (RNNs). I FOUND that LSTM autoencoder, a type of RNNs, perform better than the other types of classifiers considered for this problem.
 ### LSTM Autoencoder
 Autoencoder classification performs similar to anomaly detection where anything that doesn't follow the normal pattern is classified as an anomaly. Communal conflict is a type of event that rarely happens compared to the peaceful months and years in a particular place. This makes the algorithm suitable to solve the conflict classification problem.
+
 Autoencoders are a special form of a neural network as they attempt to generate output using a reconstruction of the input they receive which gives them an advantage in the classification of rare events such as conflict events. Using an autoencoder two steps. First, we feed our input data into the autoencoder and tune it until it is well trained to reconstruct itself as an output with minimum error. Next, we calculate the mean square error that measures how far is the reconstructed data point from the actual data points. The second step is basically identifying the outliers from the mean squared error figures that represent anomaly (conflict) from the general trend (peace). This is done by codding 1 when the mean squared error surpasses a certain threshold, 0 otherwise. 
 LSTM autoencoder is an improved version autoencoder designed to incorporate the temporal features in the data. The algorithm is capable of extracting effects of past events in the form of both long- and short-term effects. 
 
